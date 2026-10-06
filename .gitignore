@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+# Raw data files (never commit Massive API dumps)
+data/*.csv
+data/*.parquet
+data/*.h5
+data/*.pkl
+*.parquet
+*.h5
+*.pkl
+!tests/fixtures/**
+.DS_Store
+*.log
+# Results directory: CSVs, PNGs, and Markdown ARE deliverables — commit them
+!results/*.csv
+!results/*.png
+!results/*.pdf
+!results/*.md
